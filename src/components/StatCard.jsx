@@ -6,17 +6,17 @@ const StatCard = () => {
         {
             name: "Users",
             count: "90",
-            url: "public/images/stat-icon-1.svg"
+            url: "/images/stat-icon-1.svg"
         },
         {
             name: "Locations",
             count: "30",
-            url: "public/images/stat-icon-2.svg"
+            url: "/images/stat-icon-2.svg"
         },
         {
             name: "Servers",
             count: "50",
-            url: "public/images/stat-icon-3.svg"
+            url: "/images/stat-icon-3.svg"
         }
     ];
     

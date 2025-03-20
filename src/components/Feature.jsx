@@ -28,7 +28,7 @@ const Feature = () => {
             <div className="row justify-content-center align-items-center g-4">
                 <div className="col-10 col-md-6">
                     <div>
-                        <img src='public/images/feature-img.svg' className='img-fluid' alt='a person using laptop' />
+                        <img src='/images/feature-img.svg' className='img-fluid' alt='a person using laptop' />
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4">

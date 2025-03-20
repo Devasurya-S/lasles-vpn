@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="container-lg">
                 <a className="navbar-brand" href="#">
                     <span className='d-flex align-items-center gap-2'>
-                        <img src="src/assets/lasles-logo.svg" alt="logo" className='img-fluid' />
+                        <img src="../src/assets/lasles-logo.svg" alt="logo" className='img-fluid' />
                         <p className='mb-0'>Lasles<strong>VPN</strong></p>
                     </span>
                 </a>

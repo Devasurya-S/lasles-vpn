@@ -44,7 +44,7 @@ const PriceSection = () => {
         return(
             <li key={index} className='d-flex align-items-center gap-2 mb-1 mb-md-3'>
                 <span>
-                    <img src="public/images/price-check-icon.svg" className='img-fulid' alt="check icon" />
+                    <img src="/images/price-check-icon.svg" className='img-fulid' alt="check icon" />
                 </span>
                 <span className=''>{feature}</span>
             </li>
@@ -59,7 +59,7 @@ const PriceSection = () => {
         <div className={`d-flex flex-column justify-content-between price-card h-100 rounded-2 p-3 py-5 px-lg-5 ${plan.name==='Premium'?'card-selected':''}`}>
           <div className='d-flex flex-column justify-content-center align-items-center gap-4'>
             <div>
-              <img src='public/images/price-img-1.svg' alt="image of cardboard box opened" className='img-fluid' />
+              <img src='/images/price-img-1.svg' alt="image of cardboard box opened" className='img-fluid' />
             </div>
             <h4 className='mb-0 fs-5 fw-medium'>{plan.name} Plan</h4>
             <ul className='ps-0 fw-regular text-type-4 color-1'>

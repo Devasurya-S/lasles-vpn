@@ -8,7 +8,7 @@ const HeroSection = () => {
             <div className="row justify-content-center align-items-center flex-row-reverse g-4">
                 <div className="col-10 col-md-6">
                     <div>
-                        <img src='public/hero-image.svg' className='img-fluid' alt='a person using laptop with vpn protection' />
+                        <img src='/hero-image.svg' className='img-fluid' alt='a person using laptop with vpn protection' />
                     </div>
                 </div>
                 <div className="col-md-6">
