@@ -234,6 +234,6 @@ body {
 
 .brand-container {
     overflow: hidden;
-    border:1px solid black;
     height: 113px;
+    display: flex;
 }
