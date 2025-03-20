@@ -13,7 +13,7 @@ const Feature = () => {
             return(
                 <li key={index} className='d-flex align-items-center gap-2 mb-1 mb-md-3'>
                     <span>
-                        <img src="public/images/check-icon.svg" className='img-fulid' alt="check icon" />
+                        <img src="/images/check-icon.svg" className='img-fulid' alt="check icon" />
                     </span>
                     <span>{feature}</span>
                 </li>
