@@ -7,6 +7,8 @@ import StatCard from './components/StatCard';
 import Feature from './components/Feature';
 import PriceSection from './components/PriceSection';
 import MapSection from './components/MapSection';
+import Footer from './components/Footer';
+import Testimonial from './components/Testimonial';
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
         <Feature/>
         <PriceSection/>
         <MapSection/>
+        <Testimonial/>
       </main>
+      <Footer/>
     </>
   )
 }

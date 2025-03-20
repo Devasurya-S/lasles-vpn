@@ -26,9 +26,6 @@ body {
 .text-type-1 {
     font-size: 1rem;
 }
-.text-type-1 {
-    font-size: 1rem;
-}
 
 .text-type-2 {
     font-size: 1.5625rem;
@@ -40,6 +37,14 @@ body {
 
 .text-type-4 {
     font-size: 0.875rem;
+}
+
+.cstm-pt-1 {
+    padding-top: 10rem;
+}
+
+.cstm-mt-1 {
+    margin-top: 7rem;
 }
 
 @media (max-width: 1200px) {
@@ -236,4 +241,8 @@ body {
     overflow: hidden;
     height: 113px;
     display: flex;
+}
+
+.sub-card {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
