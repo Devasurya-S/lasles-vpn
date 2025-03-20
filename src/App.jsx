@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import StatCard from './components/statCard';
 import Feature from './components/Feature';
 import PriceSection from './components/PriceSection';
+import MapSection from './components/MapSection';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <StatCard/>
         <Feature/>
         <PriceSection/>
+        <MapSection/>
       </main>
     </>
   )

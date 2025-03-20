@@ -231,3 +231,9 @@ body {
 .card-selected .btn-type-1 {
     box-shadow: 0px 20px 60px hsl(0deg 90.4% 59% / 0.5);
 }
+
+.brand-container {
+    overflow: hidden;
+    border:1px solid black;
+    height: 113px;
+}
