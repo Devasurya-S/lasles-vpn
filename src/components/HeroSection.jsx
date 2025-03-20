@@ -4,8 +4,8 @@ import ButtonPrimary from './ButtonPrimary'
 const HeroSection = () => {
   return (
     <section>
-        <div className='container-lg py-3 py-lg-5'>
-            <div className="row justify-content-center jusitfy-content-md-between align-items-center flex-row-reverse g-4">
+        <div className='container-md py-3 py-lg-5'>
+            <div className="row justify-content-center align-items-center flex-row-reverse g-4">
                 <div className="col-10 col-md-6">
                     <div>
                         <img src='public/hero-image.svg' className='img-fluid' alt='a person using laptop with vpn protection' />

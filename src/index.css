@@ -3,8 +3,24 @@ body {
     background-color: #FFFFFF;
 }
 
+.stat-border-right {
+    border-right: 2px solid #EEEFF2;
+}
+
+.color-1 {
+    color: #4F5665;
+}
+
+.color-2 {
+    color: #0B132A;
+}
+
 .hd-type-1 {
     font-size: 3.125rem;
+}
+
+.hd-type-2 {
+    font-size: 2.1875rem;
 }
 
 .text-type-1 {
@@ -22,21 +38,17 @@ body {
     font-size: 1.25rem;
 }
 
-.stat-border-right {
-    border-right: 2px solid #EEEFF2;
-}
-
-.color-1 {
-    color: #4F5665;
-}
-
-.color-2 {
-    color: #0B132A;
+.text-type-4 {
+    font-size: 0.875rem;
 }
 
 @media (max-width: 1200px) {
     .hd-type-1 {
         font-size: 2.5rem;
+    }
+
+    .hd-type-2 {
+        font-size: 2rem;
     }
 
     .text-type-1 {
@@ -50,11 +62,19 @@ body {
     .text-type-3 {
         font-size: 1.125rem;
     }
+
+    .text-type-4 {
+        font-size: 0.8125rem;
+    }
 }
 
 @media (max-width: 992px) {
     .hd-type-1 {
         font-size: 2rem;
+    }
+
+    .hd-type-2 {
+        font-size: 1.875rem;
     }
 
     .text-type-1 {
@@ -68,11 +88,19 @@ body {
     .text-type-3 {
         font-size: 1rem;
     }
+
+    .text-type-4 {
+        font-size: 0.75rem;
+    }
 }
 
 @media (max-width: 768px) {
     .hd-type-1 {
         font-size: 1.5rem;
+    }
+
+    .hd-type-2 {
+        font-size: 1.625rem;
     }
 
     .text-type-1 {
@@ -87,11 +115,18 @@ body {
         font-size: 0.9375rem;
     }
 
+    .text-type-4 {
+        font-size: 0.6875rem;
+    }
 }
 
 @media (max-width: 576px) {
     .hd-type-1 {
         font-size: 1.25rem;
+    }
+
+    .hd-type-2 {
+        font-size: 1.5rem;
     }
 
     .text-type-1 {
@@ -104,6 +139,10 @@ body {
 
     .text-type-3 {
         font-size: 0.875rem;
+    }
+
+    .text-type-4 {
+        font-size: 0.625rem;
     }
 
     .stat-border-right {
@@ -139,6 +178,10 @@ body {
     background-color: #F53838 !important;
     color: white !important;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .btn-shdaow-type-1:hover {
@@ -161,4 +204,30 @@ body {
 .stat-icon img {
     height: 24px;
     width: 24px;
+}
+
+.price-card {
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.price-card:hover {
+    border: 2px solid #F53838;
+}
+
+.bg-color-1 {
+    background-color: #FAFAFA;
+}
+
+.card-selected {
+    border: 2px solid #F53838;
+}
+
+.card-selected .btn-type-1 {
+    box-shadow: 0px 20px 60px hsl(0deg 90.4% 59% / 0.5);
 }

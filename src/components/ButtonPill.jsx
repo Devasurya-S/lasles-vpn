@@ -11,7 +11,7 @@ const ButtonPill = (props) => {
     } 
 
   return (
-    <button className={`btn-type-1 rounded-pill fw-medium color-3 py-1 px-4 ${setStyle() ? "btn-type-outline" : ""}`}>
+    <button className={`btn-type-1 rounded-pill fw-medium color-3 py-1 px-5 ${setStyle() ? "btn-type-outline" : ""}`}>
         {btnName}
     </button>
   )

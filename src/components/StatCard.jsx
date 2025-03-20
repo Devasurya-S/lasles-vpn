@@ -19,10 +19,6 @@ const StatCard = () => {
             url: "public/images/stat-icon-3.svg"
         }
     ];
-
-    const statItemRender = () => {
-        return statData.map((stat, index) => statItem(stat, index));
-    }
     
     const statItem = (statItem, index) => {
         const borderClass = index === statData.length - 1 ? "" : "stat-border-right";
@@ -42,9 +38,13 @@ const StatCard = () => {
         );
     }
 
+    const statItemRender = () => {
+        return statData.map((stat, index) => statItem(stat, index));
+    }
+
   return (
     <section>
-        <div className='container-lg py-3 py-lg-5'>
+        <div className='container-md py-3 py-lg-5'>
             <div className="bg-white rounded-2 statCard p-3 p-md-4">
                 <div className="row">
                     {statItemRender()}
