@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonPrimary from './ButtonPrimary'
+import { NavLink } from 'react-router'
 
 const Footer = () => {
     const footerUrls = [
@@ -79,7 +80,7 @@ const Footer = () => {
     const urlRender = (urlList) => {
         const urlItem = urlList.map((urlObj, index) => {
             return (
-                <li key={index} className='nav-item mb-2'><a className='color-1 text-type-1' href={urlObj.url}>{urlObj.name}</a></li>
+                <li key={index} className='nav-item mb-2'><a className='color-1 text-type-1 cstm-link' href={urlObj.url}>{urlObj.name}</a></li>
             )
         })
         return urlItem;
@@ -121,7 +122,7 @@ const Footer = () => {
         <div className="container-lg">
             <div className="row flex-column-reverse flex-md-row g-4">
                 <div className="col-md-6">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href='#'>
                         <span className='d-flex align-items-center gap-2'>
                             <img src="/lasles-logo.svg" alt="logo" className='img-fluid' />
                             <p className='mb-0 text-type-3 fw-meduim'>Lasles<strong>VPN</strong></p>

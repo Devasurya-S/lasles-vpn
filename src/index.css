@@ -282,3 +282,11 @@ body {
     color: #F53838 !important;
     width: 45px;
 } */
+
+.cstm-link {
+    text-decoration: none;
+}
+
+.cstm-link:hover {
+    text-decoration: underline;
+}

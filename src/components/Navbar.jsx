@@ -1,17 +1,18 @@
 import React from 'react'
 import ButtonPill from './ButtonPill'
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <header>
+    <headerc className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-lg">
-                <a className="navbar-brand" href="#">
+                <NavLink className="navbar-brand" to="/">
                     <span className='d-flex align-items-center gap-2'>
                         <img src="/lasles-logo.svg" alt="logo" className='img-fluid' />
                         <p className='mb-0'>Lasles<strong>VPN</strong></p>
                     </span>
-                </a>
+                </NavLink>
                 <button className="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -48,7 +49,7 @@ const Navbar = () => {
                 </div>
             </div>
             </nav>
-    </header>
+    </headerc>
   )
 }
 
