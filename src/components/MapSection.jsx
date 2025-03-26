@@ -28,7 +28,7 @@ const MapSection = () => {
     }
   return (
     <section className='bg-color-1'>
-        <div className='container-md py-3 py-lg-5'>
+        <div className='container py-3 py-lg-5'>
             <h2 className='hd-type-2 fw-medium mb-2 mb-md-3 color-2 text-center'>Huge Global Network <br/> of Fast VPN</h2>
             <p className='text-type-1 fw-regular mb-3 mb-md-4 color-1 text-center mb-4 mb-md-5'>See LaslesVPN everywhere to make it easier for you when you move <br/> locations.</p>
             <div className='text-center mb-3 mb-lg-5'>

@@ -24,7 +24,7 @@ const Feature = () => {
 
   return (
     <section>
-        <div className='container-md py-3 py-lg-5'>
+        <div className='container py-3 py-lg-5'>
             <div className="row justify-content-center align-items-center g-4">
                 <div className="col-10 col-md-6">
                     <div>
@@ -32,7 +32,7 @@ const Feature = () => {
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                    <div>
+                    <div className='px-4 px-sm-0'>
                         <h2 className='hd-type-2 fw-medium mb-2 mb-md-3 color-2'>We Provide Many Features You Can Use</h2>
                         <p className='text-type-1 fw-regular mb-3 mb-md-4 color-1'>You can explore the features that we provide with fun and have their own functions each feature.</p>
                         <ul className='ps-0 fw-regular text-type-4 color-1'>

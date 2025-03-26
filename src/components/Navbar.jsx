@@ -4,9 +4,9 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <headerc className="sticky-top">
+    <header className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-lg">
+            <div className="container">
                 <NavLink className="navbar-brand" to="/">
                     <span className='d-flex align-items-center gap-2'>
                         <img src="/lasles-logo.svg" alt="logo" className='img-fluid' />
@@ -49,7 +49,7 @@ const Navbar = () => {
                 </div>
             </div>
             </nav>
-    </headerc>
+    </header>
   )
 }
 
